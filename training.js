@@ -26,17 +26,19 @@ console.log(5==6?'Hi':'No')
 console.log(5=='5'?'Hi':'No')
 console.log(5==='5'?'Hi':'No')
 
-// Concept of loops in Javascript
+// Concept of lopps in Javascript
 
 var arr=[1,'Sushma',true,0]
+arr.push('sakshi')
 for (var i in arr){
     console.log(i,arr[i]);
 
 }
 
 
-var arr2=[1,'Sushma',true,0];
-for (i of arr2)
+arr.pop()
+//var arr2=[1,'Sushma',true,0];
+for (i of arr)
 {
     console.log(i)
 }
