@@ -26,7 +26,7 @@ console.log(5==6?'Hi':'No')
 console.log(5=='5'?'Hi':'No')
 console.log(5==='5'?'Hi':'No')
 
-// Concept of lopps in Javascript
+// Concept of loops in Javascript
 
 var arr=[1,'Sushma',true,0]
 for (var i in arr){
